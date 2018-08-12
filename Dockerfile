@@ -1,5 +1,6 @@
 FROM python:2.7
-MAINTAINER Shekhar Gulati "shekhargulati84@gmail.com"
+MAINTAINER alibungker "alibungker@gmail.com"
+RUN apt-get update && apt-get install nano
 COPY . /app
 WORKDIR /app
 RUN pip install -r requirements.txt
