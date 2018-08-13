@@ -1,0 +1,9 @@
+SECRET_KEY = 'you-will-never-guess'
+DEBUG=True
+MONGODB_DB = 'flaskbook'
+# HOSTNAME = 'https://localhost:5000'
+# UPLOAD_FOLDER = '/app/flaskbook/static/images'
+# STATIC_IMAGE_URL = 'images'
+# AWS_BUCKET = ''
+# AWS_CONTENT_URL = ''
+# AWS_SEND_MAIL = False
